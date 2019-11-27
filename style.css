@@ -10,9 +10,6 @@ body{
     
 }
 
-.nav-top{
-
-}
 .container{
     width:85%;
     max-width:1170px;
@@ -29,38 +26,72 @@ body{
     height:800px;
 }
 
-
+/*Flexbox*/
 .d-flex{
     display: flex;
 }
+
 .flex-align-items{
-    align-items: center
+    align-items: center;
 }
+.flex-align-right{
+    justify-content: flex-end;
+}
+
+.flex-justify-center{
+    justify-content:center
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+/*fin flexbox*/
 .column-large{
     width:50%;
-    height:150px;  
-
-}
-.col-left{
-    
+    height:150px; 
 }
 
-.col-right{
-
-}
-
-.logo-blueasy{
- 
-}
-
+/*Menu*/
 ul {
     list-style-type: none;
     justify-content: flex-end;
 
 }
-.btn-nav{ 
-    border:solid 2px #4bcaff;
-    padding: 10px 17px;
+.btn-nav a { 
+    padding: 10px 19px;
+    margin-right: 11px;
+    color: white;
+    text-decoration: none;
+    
+    font-weight: 700;
+    font-size: 14px;
+}
+.btn-nav a:hover {
+    
+    color: #4bcaff;
+    border: solid 2px #4bcaff;
+    padding: 6px 17px;
+}
+.btn-nav a:active {
+    
+    color: #4bcaff;
+    border: solid 2px #4bcaff;
+    padding: 6x 17px;
+}
+.hero-title-header{
+    width: 100%;
+    height: 650px;
+    font-size: 42px;
+    font-weight:100;
+}
+
+
+/*Textes alignement,...*/
+.text-uppercase {
+text-transform: uppercase;
+}
+.text-align-center{
+    text-align: center;
 }
 
 
@@ -68,4 +99,11 @@ ul {
 /*gris 85%*/
 .bg-black-85{
     background-color: rgba(53, 63, 70, 0.85);
+}
+.color-white{
+    color: #ffffff;
+}
+.bg-grey-100{
+    background-color: #4c575f;
+
 }
