@@ -18,7 +18,7 @@ body{
 }
     
 .row{
-    witdh:100%;
+    width:100%;
 
 }
 .bg-header{
@@ -66,23 +66,26 @@ ul {
     font-weight: 700;
     font-size: 14px;
 }
-.btn-nav a:hover {
+.btn-nav a:hover{
     
     color: #4bcaff;
     border: solid 2px #4bcaff;
     padding: 6px 17px;
 }
-.btn-nav a:active {
-    
-    color: #4bcaff;
-    border: solid 2px #4bcaff;
-    padding: 6x 17px;
-}
+
+
 .hero-title-header{
     width: 100%;
     height: 650px;
     font-size: 42px;
     font-weight:100;
+}
+.padding-header-text{
+    padding: 3px 20px 6px 20px;
+    margin: 0;
+}
+.padding-header-text:first-child{
+    margin-bottom: 12px;
 }
 
 
