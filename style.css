@@ -1,0 +1,71 @@
+/*Systeme de la grille*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.container-large{
+    width:100%;
+    margin: 0;
+    
+}
+
+.nav-top{
+
+}
+.container{
+    width:85%;
+    max-width:1170px;
+    height: auto;
+    margin: 0 auto;
+}
+    
+.row{
+    witdh:100%;
+
+}
+.bg-header{
+    background-image: url(images/images-big-1.jpg);
+    height:800px;
+}
+
+
+.d-flex{
+    display: flex;
+}
+.flex-align-items{
+    align-items: center
+}
+.column-large{
+    width:50%;
+    height:150px;  
+
+}
+.col-left{
+    
+}
+
+.col-right{
+
+}
+
+.logo-blueasy{
+ 
+}
+
+ul {
+    list-style-type: none;
+    justify-content: flex-end;
+
+}
+.btn-nav{ 
+    border:solid 2px #4bcaff;
+    padding: 10px 17px;
+}
+
+
+/***Colors***/
+/*gris 85%*/
+.bg-black-85{
+    background-color: rgba(53, 63, 70, 0.85);
+}
