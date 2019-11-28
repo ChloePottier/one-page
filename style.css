@@ -117,10 +117,9 @@ ul {
 
 .btn-visit-me a:hover{    
     color: #fff;
-    border: solid 2px #4bcaff;
+    border: solid 2px #fff;
     padding: 6px 17px;
 }
-
 
 .hero-title-header{
     width: 100%;
@@ -134,6 +133,11 @@ ul {
 .padding-header-text:first-child{
     margin-bottom: 12px;
 }
+.text-justdefaultsection{
+    max-width:470px;
+    font-size: 14px;
+}
+
 
 
 /*Textes alignement,...*/
@@ -172,6 +176,10 @@ h3 {
 }
 .padding-bottom-78{
     padding-bottom:78px;
+}
+
+.padding-bottom-74{
+    padding-bottom:74px;
 }
 
 
