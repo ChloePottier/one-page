@@ -217,6 +217,10 @@ h3 {
     margin-bottom: 30px;
 }
 
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
 
 .padding-bottom-78{
     padding-bottom:78px;
@@ -365,6 +369,26 @@ h3 {
     height:814px;
 }
 
+/*contact*/
+.input{
+    width: 470px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.text-area{
+    width: 100%;
+    max-width: 1170px;
+    height: 220px;
+    background-color: transparent;
+}
+
+#submit_button{
+    width:370px;
+    height: 60px;
+    border: none;
+    margin-top:40px;
+}
 
 
 /***Colors***/
