@@ -61,6 +61,10 @@ body{
     width:50%;
     height:150px; 
 }
+.column-large2{
+    width:50%;
+    height:auto; 
+}
 
 /*Menu*/
 ul {
@@ -172,6 +176,10 @@ h3 {
 .images-portfolio img{
     margin-bottom: 30px;
 }
+.images-portfolio{
+    margin-bottom: 46px;
+}
+
 
 
 /***Colors***/
@@ -191,6 +199,9 @@ h3 {
 
 .bg-grey-100{
     background-color: #4c575f;
+}
+.bg-grey{
+    background-color: #515f67;
 }
 
 .bg-blue{
