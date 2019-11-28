@@ -166,6 +166,11 @@ ul {
     font-size: 14px;
 }
 
+.quote{
+    font-size:72px;
+    font-family: 'bitter';
+}
+
 
 
 /*Textes alignement,...*/
@@ -220,12 +225,6 @@ h3 {
 .padding-bottom-74{
     padding-bottom:74px;
 }
-.john-doe p:{
-padding-left: 10px;
-}
-
-
-
 .four-column{
     width:270px;
 }
@@ -358,6 +357,12 @@ padding-left: 10px;
 
 .bg-john-doe{
     background-image: url(images/images-big-3.jpg);
+    height:505px;
+}
+
+.bg-contact{
+    background-image: url(images/images-big-2.jpg);
+    height:814px;
 }
 
 
@@ -394,4 +399,7 @@ padding-left: 10px;
 
 .bg-blue{
     background-color: #4bcaff;
+}
+.color-blue{
+    color: #4bcaff;
 }
