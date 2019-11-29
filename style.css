@@ -398,24 +398,26 @@ footer{
     height:170px;
 }
 .menu-footer li:first-child{
-margin-left: 0;
+    margin-left: 0px;
 }
-.menu-footer{
+
+.menu-footer li{
     margin-right: 17px;
     margin-left: 17px;
+    font-size:12px;
 }
 
 .lien-footer{
-    
-    color: #515f67;
-
+        color: #515f67;
 }
 
 
-.lien-footer:hover{
-    
+.lien-footer:hover{    
     color: #fff;
 }
+
+
+
 
 /***Colors***/
 /*gris 85%*/
@@ -443,12 +445,15 @@ margin-left: 0;
     background-color: #515f67;
 }
 
+.color-grey{
+    color: #515f67;
+}
 
 .border-right-grey{
     border-right :solid 2px #515f67;
 }
 
-.color-grey-black{
+.bg-color-grey-black{
     background-color: #353f46;
 }
 
