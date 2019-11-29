@@ -403,26 +403,25 @@ footer{
 
 .menu-footer li{
     margin-right: 17px;
-    margin-left: 17px;
     font-size:12px;
+}
+.menu-footer a{
+    margin-right: 17px ;
 }
 
 .lien-footer{
-        color: #515f67;
+    color: #515f67;
 }
-
 
 .lien-footer:hover{    
-    color: #fff;
+color: #fff;
 }
-
-
 
 
 /***Colors***/
 /*gris 85%*/
 .bg-black-85{
-    background-color: rgba(53, 63, 70, 0.85);
+    background-color: rgba(53,63,70,0.85);
 }
 .bg-black{
     background-color: #000;
