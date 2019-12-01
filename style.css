@@ -65,15 +65,68 @@ h3 {
 .four-column{
     width:270px;
 }
-
+/*Boutons services*/
 .services .four-column{
     margin-right:50px;
     font-size: 12px;
+    color: #fff;
+}
+
+.services .four-column:hover{
+    color: #353f46;
 }
 .services .four-column:last-child{
     margin-right:0px;
 }
 
+.services .four-column{
+    margin-right:50px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.icone-services1{
+    width: 35px;
+    height: 50px;
+    background-image: url(images/icones-services-1.png);
+    background-position: top;
+}
+.icone-services1:hover{
+    width: 35px;
+    height: 50px;
+    background-image: url(images/icones-services-1.png);
+    background-position: bottom;
+}
+.icone-services2{
+    width: 49px;
+    height: 50px;
+    background-image: url(images/icones-services-2.png);
+    background-position: top;
+}
+.icone-services2:hover{
+    background-image: url(images/icones-services-2.png);
+    background-position: bottom;
+}
+.icone-services3{
+    width: 53px;
+    height: 50px;
+    background-image: url(images/icones-services-3.png);
+    background-position: top;
+}
+.icone-services3:hover{
+    background-image: url(images/icones-services-3.png);
+    background-position: bottom;
+}
+.icone-services4{
+    width: 50px;
+    height: 50px;
+    background-image: url(images/icones-services-4.png);
+    background-position: top;
+}
+.icone-services4:hover{
+    background-image: url(images/icones-services-4.png);
+    background-position: bottom;
+}
 /*Flexbox*/
 .d-flex{
     display: flex;
@@ -173,6 +226,13 @@ ul {
     height:65px;
 }
 
+.btn-envoyer{
+    background-color: #4bcaff;
+}
+.btn-envoyer:hover{
+    background-color: #353f46;
+}
+
 
 .logo-social a{
     border: solid #fff 2px;
@@ -182,7 +242,6 @@ ul {
 
 .logo-social a:hover{
     border: solid #4bcaff 2px;
-
     color: #4bcaff;
 }
 
