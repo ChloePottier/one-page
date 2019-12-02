@@ -448,7 +448,9 @@ text-transform: uppercase;
     color:white;
     font-size:14px;
     box-shadow: none;
+
 }
+
 .input:valid{
     border: solid 2px green;
 }
