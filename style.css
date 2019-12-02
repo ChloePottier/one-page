@@ -11,7 +11,7 @@ a{
 /*Titres*/
 h2{
     margin:0;
-    padding-top:70px;
+    padding-top:66px;
     border-bottom-width: 10px;
     font-size: 30px;
 }
@@ -34,8 +34,7 @@ h3 {
 }
 
 .container{
-    width:85%;
-    max-width:1170px;
+    width:1170px;
     height: auto;
     margin: 0 auto;
 }
@@ -176,6 +175,7 @@ ul {
     font-weight: 700;
     font-size: 14px;
 }
+
 .menu-pricipal li:first-child a{    
     color: #4bcaff;
     border: solid 2px #4bcaff;
@@ -444,16 +444,41 @@ text-transform: uppercase;
     width: 470px;
     height: 60px;
     background-color: transparent;
+    border: solid 2px #fff;
+    color:white;
+    font-size:14px;
+    box-shadow: none;
 }
+.input:valid{
+    border: solid 2px green;
+}
+
+.input:focus:invalid{
+    border: solid 2px red;
+}
+
+:required{
+    border: solid 2px #fff;
+}
+
 
 .text-area{
     width: 100%;
     max-width: 1170px;
     height: 220px;
     background-color: transparent;
+    color:white;
+    font-size:14px;
 }
 
 #submit_button{
+    width:370px;
+    height: 60px;
+    border: none;
+    margin-top:40px;
+}
+
+.retour{
     width:370px;
     height: 60px;
     border: none;

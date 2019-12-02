@@ -20,8 +20,7 @@
                     <div class="row d-flex">
                         <!--Logo Blueasy-->
                         <div class="column-large col-left d-flex flex-align-items">
-                            <img class="logo-blueasy" src="images/Logo-blueasy.png" width="126" height="21"
-                                alt="Logo Blueasy">
+                            <img class="logo-blueasy" src="images/Logo-blueasy.png" width="126" height="21" alt="Logo Blueasy">
 
                         </div>
                         <!--Menu principal-->
@@ -43,8 +42,7 @@
             </div>
             <div class="container">
 
-                <div
-                    class="hero-title-header d-flex flex-align-items flex-justify-center color-white text-uppercase text-weight-200 text-align-center flex-direction-column">
+                <div class="hero-title-header d-flex flex-align-items flex-justify-center color-white text-uppercase text-weight-200 text-align-center flex-direction-column">
                     <p class="bg-grey-100 padding-header-text"> “I’m looking for the unexpected.</p>
                     <p class="bg-grey-100 padding-header-text"> I’m looking for things I’ve never seen before.” </p>
                 </div>
@@ -71,21 +69,21 @@
                     <p class="text-semibold">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll
                         liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake
                         jujubes.</p>
-                    </a>
+                </a>
                 <a href="#" class="four-column">
                     <div class="icone-services3"></div>
                     <h3 class="text-uppercase">Serious</h3>
                     <p class="text-semibold">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll
                         liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake
                         jujubes.</p>
-                    </a>
+                </a>
                 <a href="#" class="four-column">
                     <div class="icone-services4"></div>
                     <h3 class="text-uppercase">Frame</h3>
                     <p class="text-semibold">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll
                         liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake
                         jujubes.</p>
-                    </a>
+                </a>
             </div>
         </div>
     </div>
@@ -220,16 +218,18 @@
             <h2 class="text-uppercase text-weight-200">Contact</h2>
             <div class="line bg-white"></div>
 
-            <form action="/ma-page-de-traitement" method="POST">
+            <form action="/Users/stagiaire acs/Documents/Exercices/integrer-psd-html-css/traitement.html" method="POST">
                 <div class="contact-name-email d-flex">
                     <div class="column-large2 col-right">
                         <div class="row margin-top-38">
                             <label class="required text-uppercase bold " for="name">Full name</label><br />
-                            <input id="name" class="input border-white" name="name" type="text" />
+                            <input id="name" class="input" name="name" type="text" required
+                                placeholder="Entrez votre nom" />
                         </div>
                         <div class="row margin-top-38">
                             <label class="required text-uppercase bold " for="name">Email</label><br />
-                            <input id="email" class="input border-white" name="email" type="text" /><br />
+                            <input id="email" class="input" name="email" type="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
+                                placeholder="xxx@xxx.xx" /><br />
                         </div>
                     </div>
                     <div class="column-large2 col-left">
@@ -238,15 +238,15 @@
                             gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
                         <p>Linda Newman<br />
                             W325 State Road 123<br />
-                            Mondovi, WI(Wisconsin) 98746-54321<br />
+                            Mondovi, WI (Wisconsin) 98746-54321<br />
                             (715) 946 - 1234</p>
                     </div>
                 </div>
                 <div class="row margin-top-38">
-                    <label class="required text-uppercase bold " for="message">Your message</label><br />
+                    <label class="text-uppercase bold " for="message">Your message</label><br />
                     <textarea id="message" class="text-area border-white" name="message" rows="7" cols="30"></textarea>
                 </div>
-                <input id="submit_button" class="btn-envoyer color-white bold" type="submit" value="MESSAGE" />
+                <button id="submit_button" class="btn-envoyer color-white bold" type="submit">MESSAGE</button>
             </form>
 
         </div>
