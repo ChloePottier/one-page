@@ -1,4 +1,4 @@
-/***Systeme de la grille***/
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -180,15 +180,7 @@ ul {
     font-size: 14px;
 }
 
-/*.menu-pricipal li:first-child a{    
-    color: #4bcaff;
-    border: solid 2px #4bcaff;
-    padding: 6px 17px;
-    margin-right: 11px;
-    font-size: 14px;
-    font-weight: 700;
-    margin-top: 0;
-}*/
+
 .onglet-active{
     color: #4bcaff;
     border: solid 2px #4bcaff;
