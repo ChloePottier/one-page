@@ -162,12 +162,16 @@ h3 {
 
 
 /*Menus, boutons*/
+.nav-top{
+    position: fixed;
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     padding-left: 0;
-
-
 }
+
 .btn-nav a { 
     padding: 10px 19px;
     margin-right: 11px;
@@ -448,7 +452,6 @@ text-transform: uppercase;
     color:white;
     font-size:14px;
     box-shadow: none;
-
 }
 
 .input:valid{
