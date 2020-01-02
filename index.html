@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blueasy</title>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/93f58f1a43.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
@@ -14,18 +14,16 @@
 
 <body>
     <!--HEADER-->
-    <header>
-        <div class="container-large bg-header">
+    <header class="bg-header">
+        <!-- <div class="container-large bg-header">
             <div class="nav-top bg-black-85">
                 <div class="container">
                     <div class="row d-flex">
-                        <!--Logo Blueasy-->
-                        <div class="column-large col-left d-flex flex-align-items">
+                        <div class="column-large col-left d-flex align-items-center">
                             <img class="logo-blueasy" src="images/Logo-blueasy.png" width="126" height="21" alt="Logo Blueasy">
 
                         </div>
-                        <!--Menu principal-->
-                        <nav class="column-large col-right d-flex flex-align-items flex-align-right text-uppercase">
+                        <nav class="column-large col-right d-flex align-items-center justify-content-end text-uppercase">
                             <ul class="d-flex flex-end menu-pricipal">
                                 <li class="btn-nav"><span class="onglet-active">Home</span></li>
                                 <li class="btn-nav"><a href="services.html#services">Services</a></li>
@@ -34,21 +32,38 @@
                                 <li class="btn-nav"><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
-
-
-
                     </div>
-
                 </div>
             </div>
+    
             <div class="container">
 
-                <div class="hero-title-header d-flex flex-align-items flex-justify-center color-white text-uppercase text-weight-200 text-align-center flex-direction-column">
+                <div class="hero-title-header d-flex align-items-center justify-content-center color-white text-uppercase text-weight-200 text-center flex-column">
                     <p class="bg-grey-100 padding-header-text"> “I’m looking for the unexpected.</p>
                     <p class="bg-grey-100 padding-header-text"> I’m looking for things I’ve never seen before.” </p>
                 </div>
             </div>
 
+        </div> -->
+        <div class="container-fluid nav-top bg-black-85 position-fixed">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6 ">
+                        <img class="logo-blueasy " src="images/Logo-blueasy.png" width="126" height="21" alt="Logo Blueasy">
+                    </div>
+                    <div class="col-6">
+                        <nav class="column-large col-right d-flex align-items-center justify-content-end text-uppercase">
+                            <ul class="d-flex flex-end list-unstyled menu-pricipal ">
+                                <li class="btn-nav"><span class="onglet-active">Home</span></li>
+                                <li class="btn-nav"><a href="services.html#services">Services</a></li>
+                                <li class="btn-nav"><a href="#">Features</a></li>
+                                <li class="btn-nav"><a href="#portfolio">Portfolio</a></li>
+                                <li class="btn-nav"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!--Services-->
@@ -97,7 +112,7 @@
                     <div class="line bg-black"></div>
                 </div>
 
-                <nav class="column-large col-right d-flex flex-align-items flex-align-right text-uppercase">
+                <nav class="column-large col-right d-flex align-items-center justify-content-end text-uppercase">
                     <ul class="d-flex">
                         <li class="btn-nav2"><a href="#">All</a></li>
                         <li class="btn-nav2"><a href="#">Panoramas</a></li>
@@ -108,7 +123,7 @@
                 </nav>
             </div>
 
-            <div class="images-portfolio d-flex flex-wrap flex-space-between">
+            <div class="images-portfolio d-flex flex-wrap justify-content-between">
                 <a href="#" class="images-portfolio-miniature1 margin-bottom-30"></a>
                 <a href="#" class="images-portfolio-miniature2 margin-bottom-30"></a>
                 <a href="#" class="images-portfolio-miniature3 margin-bottom-30"></a>
@@ -134,7 +149,7 @@
                     marzipan oat cake bonbon I love candy canes toffee.</p>
                 <div class="btn-visit-me"><a href="#">Visit me</a></div>
             </div>
-            <div class="column-large2 col-right d-flex flex-align-right margin-top-80 padding-bottom-74">
+            <div class="column-large2 col-right d-flex justify-content-end margin-top-80 padding-bottom-74">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/EjBR8con4dU"></iframe>
             </div>
         </div>
@@ -147,7 +162,7 @@
                     <h2 class="text-uppercase  text-weight-200">Twitter</h2>
                     <div class="line bg-white"></div>
                 </div>
-                <div class="column-large2 col-right d-flex flex-align-right">
+                <div class="column-large2 col-right d-flex justify-content-end">
                     <i class="fab fa-twitter color-white margin-top-80"></i>
                 </div>
             </div>
@@ -172,21 +187,21 @@
                         marzipan oat cake bonbon I love candy canes toffee.</p>
 
                 </div>
-                <div class="john-doe column-large3 col-right flex-align-right">
+                <div class="john-doe column-large3 col-right justify-content-end">
                     <p>Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar
                         plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear
                         claw pastry.</p>
                     <div class="row logo-social d-flex">
-                        <a href="#" class="btn-social d-flex flex-align-items flex-justify-center  " target="_blank">
+                        <a href="#" class="btn-social d-flex align-items-center justify-content-center  " target="_blank">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="btn-social d-flex flex-align-items flex-justify-center  " target="_blank">
+                        <a href="#" class="btn-social d-flex align-items-center justify-content-center  " target="_blank">
                             <i class="fab fa-google-plus-g"></i>
                         </a>
-                        <a href="#" class="btn-social d-flex flex-align-items flex-justify-center  " target="_blank">
+                        <a href="#" class="btn-social d-flex align-items-center justify-content-center  " target="_blank">
                             <i class="fab fa-dribbble"></i>
                         </a>
-                        <a href="#" class="btn-social d-flex flex-align-items flex-justify-center  " target="_blank">
+                        <a href="#" class="btn-social d-flex align-items-center justify-content-center  " target="_blank">
                             <i class="fa fa-coffee"></i>
                         </a>
 
@@ -204,7 +219,7 @@
                     <div class="line bg-black"></div>
                 </div>
 
-                <div class="column-large col-right d-flex flex-align-items flex-align-right text-uppercase">
+                <div class="column-large col-right d-flex align-items-center justify-content-end text-uppercase">
                     <img src="images/quote.svg" class="quote" alt="quote" height="26" width="32">
                 </div>
             </div>
@@ -255,17 +270,20 @@
     <footer class="bg-color-grey-black">
         <div class="container d-flex">
             <div class="column-large2 col-left ">
-                <ul class="d-flex menu-footer flex-align-items color-grey">
+                <ul class="d-flex menu-footer align-items-center color-grey">
                     <li class="text-uppercase bold "><a href="index.html" class="lien-footer">home</a>|</li>
                     <li class="text-uppercase bold"><a href="services.html#services" class="lien-footer">services</a>|</li>
                     <li class="text-uppercase bold"><a href="#portfolio" class="lien-footer">portfolio</a>|</li>
                     <li class="text-uppercase bold"><a href="#contact" class="lien-footer">contact</a></li>
                 </ul>
             </div>
-            <div class="column-large2 col-right d-flex flex-align-right flex-align-items color-grey">2013&copy;</div>
+            <div class="column-large2 col-right d-flex justify-content-end align-items-center color-grey">2013&copy;</div>
 
         </div>
     </footer>
+    <script></script><script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script></script>
 </body>
 
 </html>
