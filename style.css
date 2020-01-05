@@ -306,91 +306,57 @@ header{
     font-size:72px;
     font-family: 'bitter';
 }
-.images-portfolio{
-    margin-bottom: 46px;
-}
-
-.images-portfolio img{
-    margin-bottom: 30px;
-}
-
-.images-portfolio-miniature1 {
-    width:270px;
+.images-portfolio-miniature1,.images-portfolio-miniature2,.images-portfolio-miniature3,.images-portfolio-miniature4,.images-portfolio-miniature5,.images-portfolio-miniature6,.images-portfolio-miniature7,.images-portfolio-miniature8{
     height: 270px;
-    background-image: url(images/miniatures-01.jpg);
+}
+.images-portfolio-miniature1 {
+    background: url(images/miniatures-01.jpg) no-repeat center;
 }
 .images-portfolio-miniature1:hover {
-    background-image: url(images/miniatures-01b.jpg);
+    background: url(images/miniatures-01b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature2 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-02.jpg);
+    background: url(images/miniatures-02.jpg) no-repeat center;
 }
 .images-portfolio-miniature2:hover {
-    background-image: url(images/miniatures-02b.jpg);
+    background: url(images/miniatures-02b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature3 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-03.jpg);
+    background: url(images/miniatures-03.jpg) no-repeat center;
 }
 .images-portfolio-miniature3:hover {
-    background-image: url(images/miniatures-03b.jpg);
+    background: url(images/miniatures-03b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature4 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-04.jpg);
+    background: url(images/miniatures-04.jpg) no-repeat center;
 }
 .images-portfolio-miniature4:hover {
-    background-image: url(images/miniatures-04b.jpg);
+    background: url(images/miniatures-04b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature5 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-05.jpg);
+    background: url(images/miniatures-05.jpg) no-repeat center;
 }
 .images-portfolio-miniature5:hover {
-    background-image: url(images/miniatures-05b.jpg);
+    background: url(images/miniatures-05b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature6 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-06.jpg);
+    background: url(images/miniatures-06.jpg) no-repeat center;
 }
 .images-portfolio-miniature6:hover {
-    background-image: url(images/miniatures-06b.jpg);
+    background: url(images/miniatures-06b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature7 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-07.jpg);
+    background: url(images/miniatures-07.jpg) no-repeat center;
 }
 .images-portfolio-miniature7:hover {
-
-    background-image: url(images/miniatures-07b.jpg);
+    background: url(images/miniatures-07b.jpg) no-repeat center;
 }
-
 .images-portfolio-miniature8 {
-    width:270px;
-    height: 270px;
-    background-image: url(images/miniatures-08.jpg);
+    background: url(images/miniatures-08.jpg) no-repeat center;
 }
 .images-portfolio-miniature8:hover {
-    background-image: url(images/miniatures-08b.jpg);
+    background: url(images/miniatures-08b.jpg) no-repeat center;
 }
-.fa-twitter{
-    font-size:30px;
-
-}
-
 .bg-john-doe{
     background-image: url(images/images-big-3.jpg);
     height:505px;
