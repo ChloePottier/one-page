@@ -99,6 +99,9 @@ h2{
     color: #4bcaff;
 }
 /* HEADER */
+header{
+    max-height:800px!important;
+}
 .height-150{
     height: 150px;
 }
@@ -252,40 +255,39 @@ h2{
     height:2px;
 }
 /*Boutons services*/
-
-.icone-services1{
-    background: url(images/icones-services-1.png) no-repeat top left ;
+.icone-services1,.icone-services2,.icone-services3,.icone-services4{
+    background-position: top left;
     color: #fff;
+}
+.icone-services1:hover,.icone-services2:hover,.icone-services3:hover,.icone-services4:hover{
+    background-position: top left;
+    color: #353f46;
+}
+.icone-services1{
+    background: url(images/icones-services-1.png) no-repeat ;
 }
 .icone-services1:hover{
-    background: url(images/icones-services-1b.png) no-repeat top left;
-    color: #353f46;
+    background: url(images/icones-services-1b.png) no-repeat ;
 }
 .icone-services2{
-    background: url(images/icones-services-2.png) no-repeat top left;
-    color: #fff;
+    background: url(images/icones-services-2.png) no-repeat ;
 }
 .icone-services2:hover{
-    background: url(images/icones-services-2b.png) no-repeat top left;
-    color: #353f46;
+    background: url(images/icones-services-2b.png) no-repeat ;
 }
 .icone-services3{
-    background: url(images/icones-services-3.png) no-repeat top left;
-    color: #fff;
+    background: url(images/icones-services-3.png) no-repeat;
+
 }
 .icone-services3:hover{
-    background: url(images/icones-services-3b.png) no-repeat top left;
-    color: #353f46;
+    background: url(images/icones-services-3b.png) no-repeat;
 }
 .icone-services4{
-    background: url(images/icones-services-4.png) no-repeat top left;
-    color: #fff;
+    background: url(images/icones-services-4.png) no-repeat;
 }
 .icone-services4:hover{
-    background: url(images/icones-services-4b.png) no-repeat top left;
-    color: #353f46;
+    background: url(images/icones-services-4b.png) no-repeat;
 }
-
 /*margin padding*/
 .margin-top-80{
     margin-top: 80px;
@@ -535,5 +537,7 @@ color: #fff;
     }
 }
 @media screen  and (max-width:575px){
-
+    .icone-services1,.icone-services1:hover,.icone-services2,.icone-services2:hover,.icone-services3,.icone-services3:hover,.icone-services4,.icone-services4:hover{
+        background-position: top center;
+    }
 }
