@@ -4,7 +4,10 @@ body{
 .z-index-1000{
     z-index: 1000;
 }
-/* font-size */
+/*font-size */
+.font-size-12{
+    font-size: 0.7rem;
+}
 .font-size-14{
     font-size: 0.875rem;
 }
@@ -18,9 +21,6 @@ body{
     font-size: 2.625rem;
 }
 /* font-weight */
-.font-weight-700{
-    font-weight: 700;
-}
 .font-weight-200{/*texte fin*/
     font-weight:200;
 }
@@ -33,45 +33,28 @@ body{
 .font-weight-600{
     font-weight: 600;
 }
-h2{
-    padding-top:66px;
-    border-bottom-width: 10px;
+.font-weight-700{
+    font-weight: 700;
 }
 /*Menus, boutons*/
 .btn-nav a { 
     padding: 10px 19px;
-    margin-right: 11px;
     color: white;    
 }
-.btn-nav a:hover{    
+.btn-nav a:hover,.onglet-active,.btn-nav2 a:hover, .onglet-active2{    
     color: #4bcaff;
     border: solid 2px #4bcaff;
     padding: 6px 17px;
-}
-.onglet-active{
-    color: #4bcaff;
-    border: solid 2px #4bcaff;
-    padding: 6px 17px;
-    margin-right: 11px;
 }
 .btn-nav2 a { 
     padding: 10px 19px;
-    margin-right: 11px;
     color:#4c575f;
-    font-size: 14px;
 }
-.btn-nav2 a:hover{    
-    color: #4bcaff;
-    border: solid 2px #4bcaff;
-    padding: 6px 17px;
-}
+
 .btn-visit-me a { 
     border: solid 2px #353f46;
     padding: 6px 17px;
-    margin-right: 11px;
     color: #353f46;    
-    font-weight: 700;
-    font-size: 14px;
 }
 .btn-visit-me a:hover{    
     color: #fff;
@@ -79,7 +62,6 @@ h2{
     padding: 6px 17px;
 }
 .btn-social{
-    font-size: 30px;
     width:65px;
     height:65px;
 }
