@@ -1,6 +1,9 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+p{
+    margin-bottom: 0;
+}
 .z-index-1000{
     z-index: 1000;
 }
@@ -127,11 +130,10 @@ header{
 .main-nav.is-open::before {
     transform: skew(-14deg) translateX(0);
 }
-/* Skewing effect on menu links */
 .main-nav ul {
     display: inline-flex;
     flex-direction: column;
-    height: 93%; /* Should be 100%, but we have a notice message :D */
+    height: 93%;
     align-items: flex-end;
     justify-content: center;
     transform: translateX(-18%) skew(-16deg);
@@ -142,7 +144,6 @@ header{
     text-align: right;
     transform: skew(16deg);
 }
-/* Apparition effect on links */
 .main-nav a {
     opacity: 0;
     transform: translateY(-10px);
@@ -281,7 +282,6 @@ header{
 .margin-top-38{
     margin-top: 38px;
 }
-
 .margin-bottom-30{
     margin-bottom: 30px;
 }
