@@ -182,7 +182,8 @@ header{
 }
 .open-main-nav {
 	position: absolute;
-	top: 1.688rem;
+    top: 1.688rem;
+    right: 10vw;
 	padding-top: 20px;
 	z-index: 1300;
 	background: none;
