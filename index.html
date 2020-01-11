@@ -279,60 +279,64 @@
         </div>
     </div>
     <!--Contact-->
-    <div class="container-large bg-grey bg-contact" id="contact">
-        <div class="container  text-white">
-            <h2 class="text-uppercase font-weight-200 pt-5">Contact</h2>
+    <div class="container-fluid bg-contact" >
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase font-weight-200 pt-5">Contact</h2>
             <div class="line bg-white mb-4"></div>
-
+                </div>
+            </div>
             <form action="traitement.html" method="POST">
-                <div class="row d-flex">
-                    <div class="col mt-2">
+                <div class="row flex-column-reverse flex-md-row mt-2">
+                    <div class="col-12 col-md-6">
                         <div class=" ">
-                            <label class="required text-uppercase font-weight-600 " for="name">Nom</label><br />
-                            <input id="name" class="input" name="name" type="text" required
-                                placeholder="Entrez votre nom" />
+                            <label class="required text-uppercase font-weight-600 " for="name">Nom *</label><br />
+                            <input id="name" class="input text-white w-100" name="name" type="text" required />
                         </div>
                         <div class="mt-5">
-                            <label class="required text-uppercase font-weight-600 " for="name">Email</label><br />
-                            <input id="email" class="input" name="email" type="email" required
+                            <label class="required text-uppercase font-weight-600 " for="name">Email *</label><br />
+                            <input id="email" class="input text-white w-100" name="email" type="email" required
                                 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,8}$"
                                 placeholder="xxx@xxx.xx" /><br />
                         </div>
                     </div>
-                    <div class="col mt-3">
-                        <p class="mb-5">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate
+                    <div class="col-12 col-md-6 mt-3 mb-4 mb-md-0">
+                        <p class="">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate
                             bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar
                             gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
-                        <p>Studio Blueasy<br />
+                        <p class="mt-4">Studio Blueasy<br />
                             route de Montmorot<br />
                             39000 Lons-Le-Saunier<br />
                             France</p>
                     </div>
                 </div>
-                <div class="row margin-top-38">
-                    <label class="text-uppercase font-weight-600 " for="message">Your message</label><br />
-                    <textarea id="message" class="text-area border-white" name="message" rows="7" cols="30"></textarea>
+                <div class="row mt-5 pb-5">
+                    <div class="col-12">
+                        <label class="text-uppercase font-weight-600 text-white" for="message">Votre message *</label><br />
+                        <textarea id="message" class="textarea border-white text-white" name="message" required rows="7" cols="30"></textarea>
+                        <button id="submit_button" class="btn-envoyer text-white font-weight-600 mt-5" type="submit">MESSAGE</button>
+                    </div>
                 </div>
-                <button id="submit_button" class="btn-envoyer text-white font-weight-600" type="submit">MESSAGE</button>
             </form>
-
         </div>
     </div>
-    <footer class="bg-color-grey-black">
-        <div class="container d-flex">
-            <div class="column-large2 col-left ">
-                <ul class="d-flex menu-footer align-items-center color-grey">
-                    <li class="text-uppercase font-weight-600 "><a href="index.html" class="lien-footer">home</a>|</li>
-                    <li class="text-uppercase font-weight-600"><a href="services.html#services"
-                            class="lien-footer">services</a>|</li>
-                    <li class="text-uppercase font-weight-600"><a href="#portfolio" class="lien-footer">portfolio</a>|
-                    </li>
-                    <li class="text-uppercase font-weight-600"><a href="#contact" class="lien-footer">contact</a></li>
-                </ul>
+    <footer class="container-fluid bg-color-grey-black">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-12 col-md-6 d-flex align-items-center mb-3 mb-md-0 justify-content-center justify-content-md-start ">
+                    <ul class="d-flex menu-footer align-items-center color-grey list-unstyled mb-0">
+                        <li class="text-uppercase font-weight-600 "><a href="index.html" class="lien-footer">home</a>|</li>
+                        <li class="text-uppercase font-weight-600"><a href="services.html#services"
+                                class="lien-footer">services</a>|</li>
+                        <li class="text-uppercase font-weight-600"><a href="#portfolio" class="lien-footer">portfolio</a>|
+                        </li>
+                        <li class="text-uppercase font-weight-600"><a href="#contact" class="lien-footer">contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 color-grey font-size-12 d-flex align-items-center justify-content-center justify-content-md-end">Mentions légales - Template Freebie 2013&copy; - Intégrée par Chloé Pottier
+                </div>
             </div>
-            <div class="column-large2 col-right d-flex justify-content-end align-items-center color-grey">2013&copy;
-            </div>
-
         </div>
     </footer>
     <!-- script burger -->
