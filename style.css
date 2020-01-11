@@ -364,37 +364,34 @@ header{
 /*contact*/
 .bg-contact{
     background-image: url(images/images-big-2.jpg);
-    height:814px;
+    background-size: cover;
 }
 .input{
     width: 470px;
     height: 60px;
     background-color: transparent;
-    border: solid 2px #fff;
-    color:white;
     font-size:14px;
     box-shadow: none;
 }
-.input:valid{
+.input:valid, .text-area:valid{
     border: solid 2px green;
 }
 
-.input:focus:invalid{
+.input:focus:invalid,.text-area:invalid{
     border: solid 2px red;
 }
 
-:required{
+:required, .input{
     border: solid 2px #fff;
 }
-.text-area{
+.textarea{
     width: 100%;
     max-width: 1170px;
     height: 220px;
     background-color: transparent;
-    color:white;
     font-size:14px;
 }
-.input, .text-area {
+.input, .textarea {
     padding-left: 15px;
     font-size: 1.2rem;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -403,7 +400,6 @@ header{
     width:370px;
     height: 60px;
     border: none;
-    margin-top:40px;
 }
 .retour{
     width:370px;
@@ -412,9 +408,6 @@ header{
     margin-top:40px;
 }
 /*footer*/
-footer{
-    height:170px;
-}
 .menu-footer li:first-child{
     margin-left: 0px;
 }
@@ -431,8 +424,6 @@ footer{
 .lien-footer:hover{    
 color: #fff;
 }
-
-
 /***Colors***/
 .color-grey{
     color: #515f67;
@@ -452,7 +443,6 @@ color: #fff;
 .bg-grey{
     background-color: #515f67;
 }
-
 .bg-color-grey-black{
     background-color: #353f46;
 }
@@ -483,6 +473,13 @@ color: #fff;
 @media screen  and (max-width:767px){
     .font-size-42{
         font-size: 1.9rem;
+    }
+    .textarea{
+        height: 150px;
+    }
+    #submit_button{
+        width: 100%;
+
     }
 }
 @media screen  and (max-width:575px){
