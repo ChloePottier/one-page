@@ -7,6 +7,9 @@ p{
 .z-index-1000{
     z-index: 1000;
 }
+.text-grey{
+    color:#4c575f;
+}
 /*font-size */
 .font-size-12{
     font-size: 0.7rem;
@@ -14,7 +17,7 @@ p{
 .font-size-14{
     font-size: 0.875rem;
 }
-.font-size-24, h3 {
+.font-size-24, h3, .btn-social {
     font-size:1.5rem;
 }
 .font-size-28 {
